@@ -2,11 +2,11 @@
 GET http://localhost:3000/users
 
 ### get a specific user
-GET http://localhost:3000/users/2
+GET http://localhost:3000/users/1
 
 ### create a new user
 POST http://localhost:3000/users
 Content-Type: application/json
 
-{ "name": "Carlos" }
+{ "name": "Juanito" }
 
